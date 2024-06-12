@@ -1,0 +1,15 @@
+{
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    ".babelrc": "jsonc",
+    ".eslintrc": "jsonc",
+    ".prettierrc": "jsonc",
+    ".stylelintrc": "json",
+    ".dockerignore": "ignore",
+    ".eslintignore": "ignore",
+    "*.xy": "lua",
+    "mqttclient.h": "c"
+  }
+}

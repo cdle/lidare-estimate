@@ -1,0 +1,38 @@
+mqtt:
+  binary_sensor:
+    - state_topic: "chufang/mov"
+      unique_id: "chufang-mov"
+      device_class: motion
+      payload_on: "on"
+      payload_off: "off"
+      device:
+          name: "chufang-mov"
+          identifiers: "chufang-mov"
+          manufacturer: "cdle"
+    - state_topic: "chufang/occ"
+      unique_id: "chufang-occ"
+      device_class: motion
+      payload_on: "on"
+      payload_off: "off"
+      device:
+          name: "chufang-occ"
+          identifiers: "chufang-occ"
+          manufacturer: "cdle"
+    - state_topic: "keting/mov"
+      unique_id: "keting-mov"
+      device_class: motion
+      payload_on: "on"
+      payload_off: "off"
+      device:
+          name: "keting-mov"
+          identifiers: "keting-mov"
+          manufacturer: "cdle"
+    - state_topic: "keting/occ"
+      unique_id: "keting-occ"
+      device_class: motion
+      payload_on: "on"
+      payload_off: "off"
+      device:
+          name: "keting-occ"
+          identifiers: "keting-occ"
+          manufacturer: "cdle"
